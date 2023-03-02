@@ -3,7 +3,8 @@ import FeedbackOptions from './Feedback/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
-
+ 
+console.log('dddd');
 class App extends Component {
   constructor() {
     super();
