@@ -1,0 +1,11 @@
+.list {
+  list-style: none;
+}
+
+.item {
+  text-align: start;
+}
+
+.numb {
+  font-weight: bold;
+}
