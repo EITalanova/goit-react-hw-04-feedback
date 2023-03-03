@@ -23,7 +23,7 @@ const Statistics = ({ good, bad, neutral, total, positivePercentage }) => {
       </li>
       <li className={css.item}>
         <span>Positive feedbak: </span>
-        <span className={css.numb}>{positivePercentage}%</span>
+        <span className={css.numb}>{Math.round(positivePercentage)}%</span>
       </li>
     </ul>
   );
